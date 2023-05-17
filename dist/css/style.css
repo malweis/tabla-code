@@ -1,0 +1,13 @@
+
+#version, .code-blocks, #archivo, #detalle{
+    display: none;
+    transition: opacity 0.5s;
+}
+.max-h-0 {
+    max-height: 0;
+  }
+  
+  .max-h-full {
+    max-height: 1000px; /* Set an appropriate maximum height when the submenu is visible */
+  }
+  
