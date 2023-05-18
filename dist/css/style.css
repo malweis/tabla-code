@@ -10,4 +10,23 @@
   .max-h-full {
     max-height: 1000px; /* Set an appropriate maximum height when the submenu is visible */
   }
+  html,
+  body {
+    height: 100%;
+    background-color: #111827;
+  }
+
+  @media (min-width: 640px) {
+    table {
+      display: inline-table !important;
+    }
+
+    thead tr:not(:first-child) {
+      display: none;
+    }
+  }
+
+  .headings{
+    background-color: #00A58A;
+  }
   
