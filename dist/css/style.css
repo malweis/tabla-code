@@ -43,3 +43,9 @@
   .ml-300 {
     margin-left: 300px;
 }
+.truncate {
+  width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
