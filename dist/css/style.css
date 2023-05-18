@@ -26,10 +26,20 @@
     }
   }
 
+  td:not(:last-child) {
+    border-bottom: 0;
+  }
+
+  th:not(:last-child) {
+    border-bottom: 2px solid rgba(0, 0, 0, .1);
+  }
   .headings{
     background-color: #00A58A;
+  }
+  
+  .ver-archivo-button:hover, .ver-detalle-button:hover, .ver-config-button:hover {
+    transform: translateY(-5px);
   }
   .ml-300 {
     margin-left: 300px;
 }
-

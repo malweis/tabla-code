@@ -9,7 +9,8 @@ module.exports = {
         "btn-primary" : "#C6FCEC",
         "text-main": "#fbf3f3",
         "text-secondary": "#111827",
-        "secondary-btn": "#eae8ed"
+        "secondary-btn": "#eae8ed",
+        "accent": "#00c6bd"
 
       }
     },
